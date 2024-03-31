@@ -1,0 +1,6 @@
+{
+  "title": "Backup Manager",
+  "description": "Control Backup Time And Location",
+  "plansTimes": ["Daily", "Weekly", "Monthly"],
+  "plansNames": ["Megaman", "Zero", "Sigma"]
+}
