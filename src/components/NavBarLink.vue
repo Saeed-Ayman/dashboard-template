@@ -1,8 +1,8 @@
 <template>
   <router-link
     :class="{
-      'bg-gray-50 rounded-lg md:rounded-md': $route.name == urlName,
-      'hover:bg-gray-50 hover:rounded-lg hover:md:rounded-md':
+      'bg-gray-200 rounded-lg md:rounded-md': $route.name == urlName,
+      'hover:bg-gray-100 hover:rounded-lg hover:md:rounded-md':
         $route.name != urlName,
     }"
     class="py-2 px-3"
