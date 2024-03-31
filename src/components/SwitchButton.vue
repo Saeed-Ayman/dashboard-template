@@ -9,8 +9,8 @@ const model = defineModel({ type: Boolean });
     :class="{ 'bg-blue-500': model, 'bg-gray-300': !model }"
   >
     <icon
-      class="absolute transition duration-300 top-1 left-1 w-6 h-6 text-white rounded-full"
-      :class="{ 'translate-x-12': model }"
+      class="absolute transition-all duration-300 top-1 left-1 w-6 h-6 text-white rounded-full"
+      :class="{ 'left-full -translate-x-full -ml-1': model }"
       :icon="model ? 'circle-check' : 'circle-xmark'"
     />
   </div>
